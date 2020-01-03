@@ -1,9 +1,11 @@
 {
   "name": "th-react-formbuilder",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "Enhanced react form builder",
   "main": "dist/index.js",
   "scripts": {
+    "start": "webpack-dev-server --config webpack.dev.js --mode development --open --hot",
+    "build": "cross-env NODE_ENV=production webpack -p --config webpack.prod.js",
     "package": "npm run build && npm publish",
     "lint": "eslint ./ --fix && echo \"No eslint errors!\"",
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -76,6 +78,11 @@
     "sass-loader": "^7.1.0",
     "style-loader": "^0.23.1",
     "uglifyjs-webpack-plugin": "^2.1.1",
-    "url-loader": "^1.1.1"
+    "url-loader": "^1.1.1",
+    "webpack": "^4.28.4",
+    "webpack-bundle-analyzer": "^3.3.2",
+    "webpack-cli": "^3.1.0",
+    "webpack-dev-server": "^3.1.7",
+    "webpack-merge": "^4.2.1"
   }
 }
