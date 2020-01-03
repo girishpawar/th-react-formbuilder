@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-node_modules/
-dist/
-=======
 # Logs
 logs
 *.log
@@ -42,6 +38,7 @@ bower_components
 build/Release
 
 # Dependency directories
+dist/
 node_modules/
 jspm_packages/
 
@@ -106,4 +103,3 @@ dist
 
 # TernJS port file
 .tern-port
->>>>>>> 5135789345003f76bd0ca40ca745eef5e4d66194
