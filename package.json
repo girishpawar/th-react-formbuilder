@@ -1,0 +1,81 @@
+{
+  "name": "th-react-formbuilder",
+  "version": "1.0.0",
+  "description": "Enhanced react form builder",
+  "main": "dist/index.js",
+  "scripts": {
+    "package": "npm run build && npm publish",
+    "lint": "eslint ./ --fix && echo \"No eslint errors!\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/girishpawar/th-react-formbuilder.git"
+  },
+  "author": "girishpawar",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/girishpawar/th-react-formbuilder/issues"
+  },
+  "homepage": "https://github.com/girishpawar/th-react-formbuilder#readme",
+  "keywords": [
+    "react",
+    "react-component",
+    "form",
+    "builder",
+    "ui",
+    "drag",
+    "drop"
+  ],
+  "dependencies": {
+    "draft-js": "^0.10.5",
+    "draftjs-to-html": "^0.8.4",
+    "html-to-draftjs": "^1.4.0",
+    "immutability-helper": "^3.0.0",
+    "lodash": "^4.17.11",
+    "lodash.flow": "^3.5.0",
+    "react-date-picker": "^7.5.1",
+    "react-dnd": "^7.4.5",
+    "react-dnd-html5-backend": "^7.4.4",
+    "react-draft-wysiwyg": "^1.13.2",
+    "react-rangeslider": "^2.2.0",
+    "react-redux": "^7.0.3",
+    "react-select": "^3.0.3",
+    "react-signature-canvas": "^1.0.2",
+    "react-star-ratings": "^2.3.0",
+    "redux": "^4.0.1",
+    "redux-form": "^8.2.3",
+    "uuid": "^3.3.2"
+  },
+  "peerDependencies": {
+    "react": "16.8.x",
+    "react-dom": "16.8.x"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.2.2",
+    "@babel/plugin-proposal-class-properties": "^7.2.3",
+    "@babel/preset-env": "^7.2.3",
+    "@babel/preset-react": "^7.0.0",
+    "@babel/register": "^7.0.0",
+    "babel-eslint": "^10.0.1",
+    "babel-loader": "^8.0.4",
+    "babel-plugin-module-resolver": "^3.1.2",
+    "compression-webpack-plugin": "^3.0.1",
+    "cross-env": "^5.2.0",
+    "css-loader": "^3.4.0",
+    "eslint": "^5.5.0",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-config-prettier": "^3.5.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-jsx-a11y": "^6.1.1",
+    "eslint-plugin-react": "^7.11.1",
+    "html-webpack-plugin": "^3.2.0",
+    "node-sass": "^4.11.0",
+    "optimize-css-assets-webpack-plugin": "^5.0.1",
+    "redux-devtools-extension": "^2.13.8",
+    "sass-loader": "^7.1.0",
+    "style-loader": "^0.23.1",
+    "uglifyjs-webpack-plugin": "^2.1.1",
+    "url-loader": "^1.1.1"
+  }
+}
